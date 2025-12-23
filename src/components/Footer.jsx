@@ -37,14 +37,14 @@ const Footer = () => {
           <FaFacebookF />
         </a>
         <a
-          // href="https://instagram.com/almost_shoumik"
+          href="https://www.instagram.com/_sabya_vibes_/"
           target="_blank"
           rel="noreferrer"
         >
           <FaInstagram />
         </a>
         <a
-          // href="https://www.linkedin.com/in/shoumik-kumbhakar-06a195225"
+          href="https://www.linkedin.com/in/sabyasachi-bose-b6b92726a/"
           target="_blank"
           rel="noreferrer"
         >
@@ -139,3 +139,4 @@ const StyledFooter = styled.div`
   }
 `;
 export default Footer;
+
