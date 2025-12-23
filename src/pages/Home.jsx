@@ -5,7 +5,7 @@ import { BiLinkExternal } from "react-icons/bi";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import AnimatedText from "../components/AnimatedText";
-import resume from "../assets/dummy.pdf";
+import resume from "../assets/sabyasachi_bose cv.pdf";
 import PageAnimation from "../components/PageAnimation";
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
             </p>
           </div>
           <div className="buttons">
-            <a className="resume" href={resume} download="resume">
+            <a className="resume" href={resume} download="Sabyasachi_Bose_Resume.pdf">
               Resume
               <BiLinkExternal style={{ marginLeft: ".15em" }} />
             </a>
@@ -199,3 +199,4 @@ const StyledHome = styled(motion.div)`
   }
 `;
 export default Home;
+
